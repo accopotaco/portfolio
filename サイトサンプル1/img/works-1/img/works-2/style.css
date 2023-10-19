@@ -1,0 +1,410 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 100%;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+h1 {
+    font-size: 40px;
+}
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(5, 134, 91);
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+li.list {
+    padding: 20px;
+    text-align: center;
+}
+li.list a{
+    text-decoration: none;
+    color: rgb(5, 134, 91);
+    font-weight: 800;
+    font-size: 20px;
+}
+li.list a:hover{
+    border-bottom:1px solid rgb(5, 134, 91);
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+.hero-img {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: url(./img/martha-dominguez-de-gouveia-nMyM7fxpokE-unsplash.jpg)no-repeat;
+    background-size: contain;
+    background-position: bottom ;
+    margin: auto;
+}
+p.main-text {
+    position: absolute;
+    bottom: 10%;
+    margin-top: 50%;
+    margin-left: 50%;
+    margin-right: 5%;
+    transform: (-50% -50%);
+    font-size: 24px;
+    color: rgb(5, 134, 91);
+}
+/* section */
+#section {
+    width: 700px;
+    padding: 40px;
+    margin: auto;
+}
+#section-2 {
+    width: 100%;
+    padding: 40px;
+    margin: auto;
+    background: url(./img/derek-finch-bD1bK7IUvd8-unsplash.jpg)no-repeat;
+    background-size:70%;
+    background-position: center;
+    opacity: 0.5;
+}
+#section-3 {
+    width: 100%;
+    height: 360px;
+    padding: 60px 68px;
+    margin: 40px auto;
+    background: url(./img/petr-magera-HuWm7malJ18-unsplash.jpg)no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+h2.ttl {
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+h2.ttl-2 {
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+.text-news {
+    width: 600px;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+}
+.text-news:last-child{
+    border-bottom: 1px solid #333;
+}
+.flex-area {
+    display: flex;
+    justify-content: space-around;
+}
+img {
+    width: 300px;
+    height: 270px;
+    object-fit: cover;
+    background-position: center;
+}
+p.message {
+    font-size: 20px;
+    padding-left: 20px;
+}
+ul {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.cont {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    margin: 10px ;
+    background:  rgb(193, 241, 245);
+    color: rgb(5, 134, 91);
+    font-weight: 800;
+    
+}
+.cont-img img {
+    width: 100px;
+    height: 100px;
+}
+.cont-ttl {
+    width: 200px;
+    height: 100px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.cont-sec3 {
+    background:  rgb(5, 134, 91);
+    width: 600px;
+    padding: 40px;
+    border-radius: 20px;
+    margin: auto;
+}
+p.lead {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 900;
+}
+button {
+    background: #fff;
+    color: rgb(5, 134, 91);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    float: right;
+}
+table {
+    width: 400px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 10px ;
+    background: rgb(193, 241, 245);
+    border-radius: 20px;
+    color: rgb(5, 134, 91);
+    font-weight: 900;
+}
+th{
+    padding: 20px;
+    border: 2px solid #fff;
+}
+td {
+    padding: 20px;
+    border: 2px solid #fff;
+}
+address, iframe{
+    width: 700px;
+    margin: auto;
+}
+.address {
+    text-align: center;
+}
+footer {
+    width: 100%;
+}
+small {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background:  rgb(5, 134, 91);;
+    color: #fff;
+    padding: 10px;
+}
+
+@media screen and (max-width:768px){
+    header {
+        display: block;
+        padding: 20px 40px;
+    }
+    .btn {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    ul {
+        width: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+    li.list a{
+        text-decoration: none;
+        color: rgb(5, 134, 91);
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .hero-img {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        background: url(./img/martha-dominguez-de-gouveia-nMyM7fxpokE-unsplash.jpg)no-repeat;
+        background-size: contain;
+        background-position: center ;
+        margin: auto;
+    }
+    p.main-text {
+        position: absolute;
+        bottom: 10%;
+        margin-top: 50%;
+        margin-left: 50%;
+        margin-right: 5%;
+        transform: (-50% -50%);
+        font-size: 18px;
+        color: rgb(5, 134, 91);
+    }
+    /* section */
+    #section {
+        width: 375px;
+        padding: 0;
+        margin: auto;
+    }
+    #section-2 {
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+        background: url(./img/derek-finch-bD1bK7IUvd8-unsplash.jpg)no-repeat;
+        background-size:100%;
+        background-position: center;
+        opacity: 0.5;
+    }
+    #section-3 {
+        width: 100%;
+        height: 360px;
+        padding: 60px 10px;
+        margin: 20px auto;
+        background: url(./img/petr-magera-HuWm7malJ18-unsplash.jpg)no-repeat;
+        background-size:cover;
+        background-position: center;
+    }
+    h2.ttl {
+        width: 100%;
+        font-size: 16px;
+        text-align: left;
+        padding: 5px ;
+    }
+    h2.ttl-2 {
+        width: 100%;
+        font-size: 16px;
+        text-align: left;
+        padding: 5px ;
+        color: #fff;
+    }
+    .text-news {
+        width: 360px;
+        padding: 5px;
+        border-top: 1px solid #333;
+    }
+    .text-news:last-child{
+        border-bottom: 1px solid #333;
+    }
+    .flex-area {
+        display: block;
+        justify-content: center;
+    }
+    p.text-item {
+        width: 360px;
+        font-size: 14px;
+    }
+    img {
+        width: 300px;
+        height: 270px;
+        object-fit: cover;
+        background-position: center;
+    }
+    p.message {
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    ul {
+        width: 400px;
+        display: block;
+        flex-wrap: no-wrap;
+        justify-content: center;
+        margin: auto;
+    }
+    .cont {
+        width: 300px;
+        height: 100px;
+        display: flex;
+        margin: 10px ;
+        background:  rgb(193, 241, 245);
+        color: rgb(5, 134, 91);
+        font-weight: 800;
+        
+    }
+    .cont-img img {
+        width: 100px;
+        height: 100px;
+    }
+    .cont-ttl {
+        width: 200px;
+        height: 100px;
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+    }
+    .cont-sec3 {
+        background:  rgb(5, 134, 91);
+        width: 340px;
+        padding: 10px;
+        border-radius: 20px;
+        margin: auto;
+    }
+    p.lead {
+        font-size: 14px;
+        color: #fff;
+        font-weight: 700;
+    }
+    button {
+        background: #fff;
+        color: rgb(5, 134, 91);
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 10px;
+        float: right;
+    }
+    table {
+        width: 400px;
+        margin: 10px auto;
+        text-align: center;
+        padding: 10px ;
+        background: rgb(193, 241, 245);
+        border-radius: 20px;
+        color: rgb(5, 134, 91);
+        font-weight: 900;
+        display: none;
+    }
+    th{
+        padding: 0px;
+        border: none
+    }
+    td {
+        padding: 0px;
+        border: noen;
+    }
+    address, iframe{
+        width: 360px;
+        margin: auto;
+    }
+    .address {
+        text-align: center;
+    }
+    footer {
+        width: 100%;
+    }
+    small {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        background:  rgb(5, 134, 91);;
+        color: #fff;
+        padding: 10px;
+    }
+    .footer {
+        width: 100%;
+        font-size: 16px;
+    }
+}
